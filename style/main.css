@@ -48,7 +48,7 @@ header nav a:hover{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url("../img/capa-house.jpg");
 
-    height:400px;
+    height:600px;
     background-size:cover;
  
 
@@ -89,6 +89,15 @@ header nav a:hover{
     color:black;
 }
 
+.botao a{
+    text-decoration: none;    
+    color: white;
+}
+.botao a:hover{
+    background-color:white;
+    color: rgb(2, 2, 2);
+}
+
 .botao i{
     margin-right: 8px;
 }
@@ -108,28 +117,41 @@ header nav a:hover{
     display: block;
     cursor: pointer;
 }
+.embed{
+    margin: 0px auto;
+    width: 80%;
+}
+.embed iframe{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border: none;
+}
+.video{
+    margin-top: 15px;
+}
+.voltar{
+    margin: 50px;
+    font-size: 20px;
+    color:azure;
+
+}
+
 
 .titulos h2{
-    margin: 20px;
-    
+    margin: 20px;    
 }
 .carrosel-filmes{
     margin-top:5px;
 }
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+
+/*.embed iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}*/
 
 
 
